@@ -1,0 +1,38 @@
+*{box-sizing:border-box;}
+html{background-color:transparent!important}
+html,body{width:100%;max-width:100%;}
+.yui-skin-ux #doc2 ,.yui-skin-ux .ux-main, .yui-skin-ux #hd{width:100%;max-width:$maxWidth;margin:0 auto;border: 0 none}
+div.ux-main div.dashboard-bd {width: 100%; max-width: $maxWidth;margin: $halfMargin auto;padding:0;box-sizing:border-box;background-color:transparent;border: 0 none;}
+.ux-block, .ux-block2{padding: 0}
+#yui-main{width:75% !important;}
+#sidebar{width: 20% !important;float:right !important;}
+/*OVERRIDES TO MAKE DASHBOARD 1 COLUMN*/
+#bd.full {max-width:$maxWidth; margin: 0 auto;
+	div#yui-main{width:100% !important;margin:auto;
+		div#content{border: 0 none;width:100%;max-width:100%;}
+	}
+}
+#sidebar.homeSide{max-width:300px;margin:$smallMargin auto !important;width: auto !important; float:none !important; text-align:center;
+
+}
+
+div.ux-main div#yui-main div#content{border-color:$greyColor;}
+.yui-skin-ux #content.yui-b{padding:$smallMargin $sidePad;}
+
+@media (max-width:1023px) {
+	#sidebar{margin-right:$sidePad;}
+	div.ux-main div#yui-main div#content{border:0 none;}
+}
+@media (max-width:767px) {
+  div#yui-main {width:100% !important;float:none !important;}
+  #sidebar {width: 100% !important;float: none !important; margin: $smallMargin auto;max-width:300px;}
+  div.ux-main div.dashboard-bd{margin:0;}
+  #sidebar{margin:$smallMargin auto;}
+ }
+
+
+
+
+
+
+

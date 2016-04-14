@@ -1,0 +1,80 @@
+[[?x[[S42:0:fr_id]]x::xx::::[[U0:evID=[[S42:0:fr_id]]]]]]
+[[?x[[S334:fr_id]]x::xx::::[[U0:evID=[[S334:fr_id]]]]]]
+[[?x[[S334:FR_ID]]x::xx::::[[U0:evID=[[S334:FR_ID]]]]]]
+[[?[[S80:trID]]::null::::[[U0:evID=[[S80:trID]]]]]]
+
+<!--LOGO-->
+<a class="navbar-brand" href="TR?pg=entry&fr_id=[[S42:0:fr-id]]"><img src="../images/content/pagebuilder/cdLogo.jpg" alt="Logo" /></a>
+
+<!--PROGRESS METERS-->
+<div class="thermWrap personal">
+    <div class="therm">
+        <div class="therm-outer"><div class="therm-inner"></div><div class="arrow-right"></div></div>
+    </div>        
+</div>
+<div class="thermWrap team">
+    <div class="therm">
+        <div class="therm-outer"><div class="therm-inner"></div><div class="arrow-right"></div></div>
+    </div>        
+</div>
+
+<!--CUSTOM BADGES-->
+<div class="badges container">
+    <h3>Achievements</h3>
+    <p>As you fundraise toward your goal, you&#8217;ll earn badges to reward your progress. Earn them all and share your achievements!</p>
+    <div class="badge">
+        [[?[[E48:[[S80:evID]]:if-page-updated]]::TRUE::
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-updatePage-full.png" alt="You have updated your page" />
+            <span class="unlocked">You're a <br />Storyteller</span>
+        ::  
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-updatePage-emtpy.png" alt="You have not updated your page" />
+            <span class="locked">Tell Your <br />Story</span>
+        ]]        
+    </div>
+    <div class="badge">
+        [[?[[E48:[[S80:evID]]:if-emails-gt:0]]::TRUE::
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-email-full.png" alt="You have sent an email" />
+            <span class="unlocked">You're an <br />Email Pro</span>
+        ::  
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-email-empty.png" alt="You have not sent an email" />
+            <span class="locked">Send an <br />Email</span>
+        ]]        
+    </div>
+    <div class="badge">
+        [[?[[E48:[[S80:evID]]:if-is-self-donor]]::TRUE::
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-selfDonor-full.png" alt="You are a self Donor" />
+            <span class="unlocked">You <br />Donated</span>
+        ::  
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-selfDonor-empty.png" alt="You are not a self donor" />
+            <span class="locked">Donate <br />Personally</span>
+        ]]        
+    </div>
+    <div class="badge">
+        [[?[[E45:1111]]::TRUE::
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-mobileApp-full.png" alt="You have downloaded the Mobile App" />
+            <span class="unlocked">You Got the <br />Mobile App</span>
+        ::  
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-mobileApp-emtpy.png" alt="You have not downloaded the Mobile App" />
+            <span class="locked">Get the <br />Mobile App</span>
+        ]]        
+    </div>
+    <div class="badge">
+        [[?[[E48:[[S80:evID]]:if-percent-gt:49]]::TRUE::
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-halfGoal-full.png" alt="You have reached half your goal" />
+            <span class="unlocked">You Met Half<br />Your Goal</span>
+        ::  
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-halfGoal-empty.png" alt="You have not reached half your goal" />
+            <span class="locked">Meet Half <br />Your Goal</span>
+        ]]        
+    </div>
+    <div class="badge">
+        [[?[[E48:[[S80:evID]]:if-percent-gt:99]]::TRUE::
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-goalMet-full.png" alt="You have reached your goal" />
+            <span class="unlocked">You Met <br />Your Goal</span>
+        ::  
+            <img src="https://secure2.convio.net/mda/images/content/teamRaiser/badges-goalMet-empty.png" alt="You have not reached your goal" />
+            <span class="locked">Meet Your <br />Full Goal</span>
+        ]]        
+    </div>
+    <div class="clear"></div>
+</div>

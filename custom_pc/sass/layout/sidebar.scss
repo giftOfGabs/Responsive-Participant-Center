@@ -1,0 +1,18 @@
+.yui-skin-ux #sidebar{
+	h1,h3 {text-overflow: ellipsis;overflow: hidden}
+	h3{padding:0}
+	ul.subnav {margin: 0 0 $halfMargin;
+		li{background: $darkGrey;border: 0 none;padding:0;}
+		li.selected{background: $primaryColor none repeat scroll 0% 0%;filter: none;}
+    	li a{display: block;font-weight:bold;color: #FFF;font-weight: bold;display: block;background: transparent;line-height: 50px;padding:0 0 0 5%;}
+    	li a:hover{background: $hoverColor}
+    	li.selected a:hover{background: inherit;}
+	}
+}
+div.dashboard-bd div#sidebar ul.subnav li{border: 0 none;}
+.yui-skin-ux #sidebar.yui-b .side-block, .yui-skin-ux #sidebar .module{border: 2px solid $secondaryColor;}
+
+@media (max-width:1023px) {
+	.yui-skin-ux ul.subnav li{margin: 0 0 5px;text-align: center;}
+	.yui-skin-ux #sidebar ul.subnav li a{padding:0;}
+}

@@ -1,0 +1,24 @@
+.yui-skin-ux #hd-nav {width: 100%;display: block; position: relative;list-style: none;padding: 0;margin:0 auto; float:none;max-width:$maxWidth;clear:both;
+    li{list-style: none;margin: 0 0 0 5%;background:transparent;padding: 0 1.7763%;}
+    li#dashboard-nav-link{margin:0;}
+    .selected {background-color:$primaryColor;color:#fff;text-decoration: none;border: 0 none;border-radius: 0;margin: 0 0 0 5%;
+        a,a:link,a:visited{color:#fff;}
+    }
+    a, a:link, a:visited, a:link{font-weight: normal; font-size: $mediumLarge;line-height: 40px;height: 40px;display:block;padding: 0; font-family:$fontStack;color: $primaryColor;}
+}
+
+.menu ul li{padding: 0px;} 
+.yui-panel-container.yui-dialog span.default button,
+.yui-skin-ux #hd-nav > li:hover a {color:#fff;}
+
+@media (min-width: 1024px) {
+    .yui-skin-ux #hd-nav > li:hover {background:none no-repeat scroll 0 0 $hoverColor;text-decoration: none;border: 0 none;border-radius: 0;}
+}
+@media (max-width: 1023px) {
+    .yui-skin-ux #hd-nav{background:$darkGrey;}
+    .yui-skin-ux #hd-nav > li{width:100%; padding: 0 $sidePad;clear:both;border:1px solid $greyColor;margin:0;border-radius:0;}
+    .yui-skin-ux #hd-nav .selected {background-color: $primaryColor;margin: 0;border-radius: 0;}
+    .yui-skin-ux #hd-nav > li a.button{padding:10px;}    
+    .yui-skin-ux #hd-nav a, .yui-skin-ux #hd-nav a:link, .yui-skin-ux #hd-nav a:visited{color:#fff;}    
+    .yui-skin-ux #hd-nav > li.selected a {color:#fff;}
+}

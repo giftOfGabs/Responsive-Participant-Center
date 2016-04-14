@@ -1,0 +1,22 @@
+/*PROGRESS METER*/
+.fundraising-progress-bar-container{display: none;}
+.yui-skin-ux .big-block, .yui-skin-ux .tiny-block{color:$bodyColor;}
+.yui-skin-ux .tiny-block span {font-size:inherit;}
+.yui-skin-ux .fundraising-progress .section{border: 4px solid $secondaryColor;background: none #fff;}
+@media(max-width: 1023px){
+  .fundraising-progress-bar-container, .team-fundraising-progress-bar-container{display:none;}
+}
+/*CUSTOM THERMS
+if using custom therm, add html to PC wrapper and hide default progress meter
+*/
+.thermWrap{overflow: hidden;padding:$halfMargin 0;margin:0 auto $smallMargin;max-width:100%;
+	.therm-outer{height:$bigMargin;background-color:$ltGrey; width:100%;overflow:hidden;border: 2px solid $secondaryColor;}
+	.therm-inner{height: $bigMargin;background-color: $primaryColor; min-width:2.5%;float:left;}
+	.arrow-right{float:left;}
+}
+.yui-skin-ux .bd-progress h3{margin:0;}
+
+
+
+
+
