@@ -404,6 +404,7 @@ EMAILS MODULE
 
 #email-template-container h3 {
   margin: 0;
+  border-bottom: 1px solid;
 }
 
 span.yui-dt-label {
