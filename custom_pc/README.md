@@ -1,4 +1,4 @@
-Custom PC Reset
+Custom Participant Center Reset
 ==============================
 ##File Organization
 SASS files are all in the sass folder and organized as follows:
