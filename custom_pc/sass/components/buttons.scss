@@ -1,7 +1,7 @@
 @mixin btn($height, $sidePad){
 	border-radius: 0; padding: 0px $sidePad; color: #fff;font-family: $fontStack; border: 0 none;filter: none;min-height:$height;line-height:$height;background:none no-repeat scroll 0 0 $primaryColor;text-decoration:none;
 }
-.yui-skin-ux a.button, .yui-button button, .yui-skin-ux button.primary, .yui-skin-ux .yui-push-button.default, .yui-skin-ux button, .yui-skin-ux .yui-push-button button, .yui-skin-ux div.primary-action a, .yui-skin-ux button.secondary, {font-size: $mediumFont;@include btn(35px, 2.5%);}
+.yui-skin-ux a.button, .yui-button button, .yui-skin-ux button.primary, .yui-skin-ux .yui-push-button.default, .yui-skin-ux button, .yui-skin-ux .yui-push-button button, .yui-skin-ux div.primary-action a, .yui-skin-ux button.secondary{font-size: $mediumFont;@include btn(35px, 2.5%);}
 
 .yui-skin-ux button:not([class^=janrain]):not(.email-wizard-recipients-actions-button) {@include btn(35px, 2.5%);}
 
