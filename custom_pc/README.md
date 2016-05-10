@@ -20,11 +20,7 @@ This controls the look and feel of PC. Includes variables and typography. For mo
 Just update variables file in sass/theme. Here you can update font stack, font sizes, branded colers and margins. For more customizations than just basic styles you will need to either update the other core files or create a override file and add its reference to the bottom of the custom.scss file
 
 ##Adding CSS
-When you save any changes to a sass file while Gulp is running it will compile it into css in the dist/styles folder. Use the minified version and ftp it up to the client's server. I suggest not adding it to the Participant Center directory you created in Luminate because it will get deleted when an upgrade occurs. Once this file is on the server, you can include it in the custom CSS file by adding @import into the Custom Styles section under Related Actions in the PC:
-
-**@import url("https://secure3.convio.net/cdbox/css/custom_pc/custom.min.css?v=[[S55:0:10000:5]]")**
-
-
+When you save any changes to a sass file while Gulp is running it will compile it into css in the dist/styles folder. Use the minified version and ftp it up to the client's server. 
 
 ##PC WRAPPER
 Update the pcWrapper.html file with the logo of the client and the link to the TeamRaiser. There is also html for the thermometers and the badges. Update the badges accordingly. Paste this file into the Edit Particpant Wrapper section

@@ -1,0 +1,27 @@
+@mixin btn($height, $sidePad){
+	border-radius: 0; padding: 0px $sidePad; color: #fff;font-family: $fontStack; border: 0 none;filter: none;min-height:$height;line-height:$height;background:none no-repeat scroll 0 0 $primaryColor;text-decoration:none;
+}
+.yui-skin-ux a.button, .yui-button button, .yui-skin-ux button.primary, .yui-skin-ux .yui-push-button.default, .yui-skin-ux button, .yui-skin-ux .yui-push-button button, .yui-skin-ux div.primary-action a, .yui-skin-ux button.secondary{font-size: $mediumFont;@include btn(35px, 2.5%);}
+
+.yui-skin-ux button:not([class^=janrain]):not(.email-wizard-recipients-actions-button) {@include btn(35px, 2.5%);}
+
+.yui-skin-ux a.button:hover,.yui-button button:hover, .yui-skin-ux button.secondary:hover, .yui-skin-ux button:hover,.yui-skin-ux button.primary:hover, .yui-skin-ux .yui-push-button.default:hover, .yui-skin-ux .yui-push-button button:hover, .yui-skin-ux div.primary-action a:hover, .yui-skin-ux button.secondary:hover, .yui-skin-ux button:not([class^=janrain]):not(.email-wizard-recipients-actions-button):hover{text-decoration: none;cursor:pointer;background:none no-repeat scroll 0 0 $hoverColor;color:#fff;font-weight:normal;}
+
+.sidebar-actions a, .sidebar-actions button, .yui-skin-ux .yui-panel .ft .yui-button.yui-push-button{padding:0;} 
+.yui-skin-ux div.primary-action a {width:100%;}
+.yui-skin-ux .yui-push-button{background:transparent;padding: 0;border: 0 none;}
+button span{color:#fff;margin:0;line-height: 0;font-family:  $fontStack;}
+.yui-skin-ux button.small{display:inline-block;font-weight: inherit;line-height: 0;font-size:$smallFont;}
+.ui-button .ui-button-text{color:#fff;line-height: 0;margin:0;}
+
+.yui-skin-ux div.primary-action{width:100%;border: 0 none; background:none 0 0 transparent;border-radius:0;box-shadow:none;}
+.yui-skin-ux div.primary-action a.message span, .yui-skin-ux div.primary-action a.money span{background: none;padding:0;}
+.yui-skin-ux .yui-push-button.default button{font-weight:normal;line-height: 0;margin:0;padding:0;}
+.ui-button .ui-button-text{font-family: $fontStack;}
+.yui-skin-ux button.secondary{font-weight:normal;}
+.yui-skin-ux button {min-height:inherit;}
+
+/*override importants*/
+.yui-skin-ux button.primary, .yui-skin-ux .yui-push-button.default, .yui-panel-container.yui-dialog span.default button{background: $primaryColor !important; border:0 none !important;outline: 0 none;}
+.yui-skin-ux button.primary:hover, .yui-skin-ux .yui-push-button.default:hover, .yui-panel-container.yui-dialog span.default button:hover{background-color: $hoverColor !important;} 
+.yui-skin-ux .yui-push-button.default button, .yui-panel-container.yui-dialog span button{padding:0 20px !important;}

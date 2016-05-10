@@ -1,0 +1,104 @@
+/*---------------------
+EMAILS MODULE
+-----------------------*/
+.yui-skin-ux #email-compose-salutation{padding:0;}
+.yui-skin-ux #email-compose-templates{padding: 0; margin: $smallMargin auto;}
+#email-wizard-contact-search{margin:10px 0 0; padding: 2px 1%;width:98%;}
+#email-template-container h3{margin:0;border-bottom:1px solid;}
+span.yui-dt-label{color:#fff;}
+
+/*progress meter in email tool*/
+#email-wizard-breadcrumb li span {font-size:$bodyFont;color:#fff;}
+#email-wizard-breadcrumb li .email-wizard-status-indicator{top:0;}
+.track-progress {
+  li > span {padding: 0px 5px 0px 30px;color:#fff}
+  li.email-wizard-nav-selected > span, li.addressbookimport-wizard-nav-selected > span{background-color:$primaryColor;}
+  li{background-color:$secondaryColor;}
+  li.email-wizard-nav-selected + li > span:before, li.addressbookimport-wizard-nav-selected + li > span:before, {border-left-color:$primaryColor;}
+  li > span:before{border-left-color:$secondaryColor;}
+  li.email-wizard-nav-selected > span, li.addressbookimport-wizard-nav-selected > span, li.email-wizard-nav-selected:hover > span{background-color:$primaryColor;}
+  li.email-wizard-nav-selected + li > span:before, li.addressbookimport-wizard-nav-selected + li > span:before, li.email-wizard-nav-selected:hover + li > span:before{border-left-color:$primaryColor;}
+  li.email-wizard-nav-unselected:hover > span {background:$hoverColor;}
+  li.email-wizard-nav-unselected:hover + li > span:before{border-left-color:$hoverColor;}
+}
+
+.yui-skin-ux{
+  /*accordion*/
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default, .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active  {color:#fff;background: none $darkGrey;border-radius:0;}
+  .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, .ui-state-active.ui-state-default:hover{background:$primaryColor;cursor:auto;}
+  .ui-state-default:hover{background: $hoverColor}
+  .ui-corner-bottom{border-radius:0;}
+  .ui-accordion .ui-accordion-header{color:#fff;}
+  .ui-accordion-content{border-color:$greyColor;}
+  .ui-accordion .ui-accordion-content{margin:0;}
+  
+  /*Email Stationery select*/
+  #email-layout-selected{margin:10px; padding:0;background: #fff;outline: 0; color:$bodyColor;}
+  #layout-block{border: 0 none;}
+  #layout-block #layout-list{background:$ltGrey;}
+  #layout-list li.selected a{border-color:$greyColor;background:$primaryColor;
+    label{color:#fff;}
+  }
+}
+
+
+
+@media(max-width:1023px) {
+  .track-progress li{display: block; text-align: left;}
+  .track-progress li > span:after, .track-progress li > span:before{border: 0 none;}
+  .track-progress li > span, .track-progress li:first-child > span{padding:0 $sidePad;}
+  .track-progress li:last-child i{display: none;}
+  #email-wizard-breadcrumb li span{font-size:$mediumFont;}
+  #email-compose-content-actions a {display: block;margin: 0 0 10px;}
+  #email-compose-content-actions button {width: 100%;clear:both;margin: 15px auto;max-width:300px;padding: 0}
+  .email-wizard #email-compose-content-actions{text-align:center;}
+  .yui-skin-ux .compose-section-input-field #email-subject{padding:.3em 0;}
+  div#email-wizard-contacts button{margin:15px;}
+  #email-wizard-recipients-table-header{display: none}
+  .email-wizard #email-compose-top, .yui-skin-ux #layout-block{max-width:98%;}
+  .yui-skin-ux #email-layout-selected{max-width:98%;}
+}
+
+/*-----------------------------
+CONTACTS
+-------------------------------*/
+/*hide icons in contacts*/
+.ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary{display: none}
+#contacts-list-switch-tab div, #contacts-list-switch-tab div.right-tab, #contacts-list-switch-tab div.left-tab{color:#fff;background:$darkGrey;padding:0;width: 100px;text-align: center;border:0 none;border-radius:0;}
+#contacts-list-switch-tab a{color:#fff;display: block}
+#contacts-list-switch-tab div:hover{background:$hoverColor;}
+#contacts-list-switch-tab div.selected, #contacts-list-switch-tab div.selected:hover{background:$primaryColor;
+  a{color:#fff;}
+}
+.yui-skin-ux #msg_cat_contact_details_edit_info{background:none;color:$hoverColor;padding:0;}
+div#email-contacts-content div#contacts-actions a, div#email-contacts-content div#contacts-actions button, .yui-skin-ux #email-contacts-content td .email-address {color:$hoverColor;font-size:$bodyFont;}
+div#email-contacts-content span#groups_menu_container button#groupsMenuButton-button, span#detailsGroupsMenuButton button#detailsGroupsMenuButton-button{color:$hoverColor;}
+div#email-contacts-content div#contacts-actions a:hover{color:$hoverColor;}
+div#email-contacts-content div#contacts-actions a:hover, div#email-contacts-content div#contacts-actions button:hover, .yui-skin-ux #email-contacts-content td .email-address:hover{text-decoration:underline;}
+.track-progress li.text{color:#fff;}
+.yui-skin-ux #msg_cat_contacts_send_message_button, .yui-skin-ux #msg_cat_contact_details_compose {background-image: none;padding: 0 5px;margin: 0;color:$hoverColor;}
+.yui-skin-ux #groups_menu_container, .yui-skin-ux span#detailsGroupsMenuButton{background-image:none;}
+.yui-skin-ux .groups_menu_container .yui-button{background-image:none;padding:0;}
+.yui-skin-ux .groups_menu_container .yui-button{padding:0 5px;}
+.yui-skin-ux .groups_menu_container, .yui-skin-ux .contacts-actions .button{margin-right:5px;}
+.yui-skin-ux #msg_cat_contacts_delete_button, .yui-skin-ux #msg_cat_sent_message_delete_label, .yui-skin-ux #msg_cat_contacts_email_all_button{padding:0 5px; background-image: none;}
+
+.yui-skin-ux div .right-split{width:260px;}
+div#email-contacts-content div.search input#contacts-search-text{max-width:200px;display: block;float:left;}
+.yui-skin-ux #msg_cat_contacts_search_button {color:#fff;float:left;display:block;}
+.yui-skin-ux div.primary-action .primary-action-shrinkwrap-container a, #contacts-list-switch-tab a.button {background-color:inherit;font-size:$smallFont;}
+.yui-skin-ux button#addressbookimport-selectsource-next.secondary {display:inline-block;}
+.yui-skin-ux #contacts-list-groups table tr.filter-type{border-color:$greyColor;}
+#contacts-list span, #addressbookimport-wizard-breadcrumb .text {color:#fff;}
+#confirm_contacts_delete_dialog .yui-push-button button{width:150px;display:inline-block;}
+.email-wizard-contacts-checkbox-header, .email-wizard-groups-checkbox-header, .email-wizard-contacts-checkbox, .email-wizard-groups-checkbox{width:auto;}
+#search-filters{padding:0 5px; max-width: 100%;margin: 0 0 $smallMargin;float:left;}
+div#addressbookimport-content a:link{font-size:inherit;}
+#addressbookimport-importcandidatecontacts-list{max-width:100%;}
+
+@media (max-width:767px) {  
+  .yui-skin-ux div .right-split{float:left;}
+  #select-links{clear:both;}
+  .email-wizard-contact-picker{display: block;margin:$smallMargin auto; width: 100%;}
+ 
+}

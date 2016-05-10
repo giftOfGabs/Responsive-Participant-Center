@@ -1,0 +1,14 @@
+*, p, ul, ol, li, ul li, ol li, strong, em, table, tr, th, td, span, a, .ObjTitle, input, button, h1, h2, h3, h4, textarea, select, option, label, div, .footer, p.cstmText, .list-value-container {font-family: $fontStack, sans-serif; font-size: $bodyFont;color: $bodyColor;font-weight:normal}
+select, input, textarea, button{font-family: $fontStack;}
+.yui-skin-ux {
+	h1, div.h1-imposter, #content.yui-b h1{font-size:$bigFont;margin: 0 0 $smallMargin; color:$primaryColor;}
+	h2 {font-size: $mediumLarge;margin: 0 0 $halfMargin 0; font-weight: bold; color:$primaryColor;}
+	h3 {font-size: $mediumFont;margin: 0 0 $smallMargin 0;font-weight: bold;color:$bodyColor;}
+	p {margin: 0 0 $smallMargin 0 ;line-height: 30px}
+	a, a:link {text-decoration: none;color:$linkColor;font-size: inherit}
+	a:hover {text-decoration: underline; cursor: pointer}
+	a span{color:inherit;}
+}
+strong {font-weight: bold}
+em {font-style: italic}
+#msg_cat_team_page_shortcut_view, #msg_cat_personal_page_view_label, #msg_cat_team_page_shortcut_edit{color:$linkColor}

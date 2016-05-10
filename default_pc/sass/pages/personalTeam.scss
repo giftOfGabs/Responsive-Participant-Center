@@ -1,0 +1,17 @@
+/*-----------------------
+PERSONAL AND TEAM PAGES
+-------------------------*/
+.yui-skin-ux div.page-setting div.page-setting-detail{width:100%;}
+.yui-skin-ux .permalink_block{background: $ltGrey;border-radius: 0;border-color:$greyColor;
+	p{word-wrap:break-word;}
+}
+.yui-skin-ux .media{background:$ltGrey;}
+#msg_cat_personal_video_url_save_button_label, #msg_cat_photo_upload_button_label{padding: 0 2.5%;}
+@media(max-width:1023px) {
+	.yui-skin-ux .media form {margin:0;clear:both;}
+	.caption input{max-width:300px;}
+	.yui-skin-ux .media{background:transparent; padding: 1.5em 0;}
+}
+@media(max-width:480px) {
+	#personal_page_title, #company_page_title{max-width: 100%}
+}

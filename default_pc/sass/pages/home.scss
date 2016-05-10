@@ -1,0 +1,11 @@
+/*NEXT STEPS*/
+#bd-what-next {margin:$halfMargin 0;
+	.what-next-answer-item{border: 2px solid $secondaryColor;border-radius:0;}
+	.what-next-answer-item.what-next-completed{border: 2px solid $secondaryColor;}
+	.what-next-icon{color:$primaryColor;}
+	.what-next-type{color:$primaryColor;font-weight:bold;}
+	.what-next-message-container{width:auto;max-width:550px;}
+}
+#bd-recent-activity .recent-activity-detail{width: auto;}
+#bd-donation-history #donation_history .yui-dt-liner{padding:.3em 1%;}
+
