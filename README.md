@@ -6,7 +6,7 @@ This package is baseline reset to make Particpant Centers in Luminate TeamRaiser
 ##Setup
 To get started, first copy the folder of the reset you want (either the default or custom), and place in your project's directory.
   
-The reset was created using SASS and build tools for compiling purposes (both Grunt and Gulp workflows are set up, pick your poison), so you will need to have [Node](https://nodejs.org/en/) and Ruby (Mac users have this automatically, [PC folks go here](https://www.ruby-lang.org/en/documentation/installation/) installed on your machine. Here is some basic documentaiton on setting up [Gulp with SASS](https://travismaynard.com/writing/getting-started-with-gulp) or [Getting Started With Gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
+The reset was created using SASS and Gulp for compiling purposes, so you will need to have [Node](https://nodejs.org/en/) and Ruby (Mac users have this automatically, [PC folks go here](https://www.ruby-lang.org/en/documentation/installation/) installed on your machine. Here is some basic documentaiton on setting up [Gulp with SASS](https://travismaynard.com/writing/getting-started-with-gulp) or [Getting Started With Gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
 
 Install gulp globally (if you have never done so). If these are already on your machine then no need:
 

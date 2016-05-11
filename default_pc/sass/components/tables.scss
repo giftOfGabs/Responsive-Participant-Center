@@ -26,8 +26,10 @@
 	}
 }
 
-/*Contact List Table*/
+
 .yui-skin-ux {
+	.yui-dt-label, .yui-dt-liner{white-space: nowrap; overflow: hidden;text-overflow: ellipsis;}
+	/*Contact List Table*/
 	#email-contacts-content td .email-address {overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
 	#contacts-table-info-block .full{width: 100%;float:left;}
 	#contacts-list-content-block .yui-dt{
@@ -38,14 +40,15 @@
 	 }
 	.contact-list-name div{width: auto;text-align:left;}
 	#contacts-table-info-block #contacts-list .yui-dt-data td{text-align:center;}
+	/*Sent and Drafts Table*/
+	.yui-dt-col-date, .yui-dt-col-delete{width:10%;}
 }
 
 @media(max-width:767px){
 	.yui-skin-ux .yui-dt table {margin:auto;
 		th, td{display: table-cell}
 	}
-	.yui-skin-ux .yui-dt-label, .yui-skin-ux .yui-dt-liner{/*word-wrap:break-word;*/white-space: nowrap; overflow: hidden;text-overflow: ellipsis;}
-
+	
 	.yui-skin-ux #contacts-table-info-block tr td.column-set-width{min-width: 0;width: auto;}
 
 	/*Recipient Picker Email tables*/
