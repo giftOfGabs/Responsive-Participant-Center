@@ -570,7 +570,7 @@ CONTACTS
   color: #fff;
   background: #a4a4ae;
   padding: 0;
-  width: 100px;
+  width: auto;
   text-align: center;
   border: 0 none;
   border-radius: 0;
@@ -1100,7 +1100,15 @@ if using custom therm, add html to PC wrapper and hide default progress meter
   display: none;
 }
 
-/*Contact List Table*/
+.yui-skin-ux {
+  /*Contact List Table*/
+  /*Sent and Drafts Table*/
+}
+.yui-skin-ux .yui-dt-label, .yui-skin-ux .yui-dt-liner {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .yui-skin-ux #email-contacts-content td .email-address {
   overflow: hidden;
   white-space: nowrap;
@@ -1129,6 +1137,9 @@ if using custom therm, add html to PC wrapper and hide default progress meter
 .yui-skin-ux #contacts-table-info-block #contacts-list .yui-dt-data td {
   text-align: center;
 }
+.yui-skin-ux .yui-dt-col-date, .yui-skin-ux .yui-dt-col-delete {
+  width: 10%;
+}
 
 @media (max-width: 767px) {
   .yui-skin-ux .yui-dt table {
@@ -1136,13 +1147,6 @@ if using custom therm, add html to PC wrapper and hide default progress meter
   }
   .yui-skin-ux .yui-dt table th, .yui-skin-ux .yui-dt table td {
     display: table-cell;
-  }
-
-  .yui-skin-ux .yui-dt-label, .yui-skin-ux .yui-dt-liner {
-    /*word-wrap:break-word;*/
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
   }
 
   .yui-skin-ux #contacts-table-info-block tr td.column-set-width {
