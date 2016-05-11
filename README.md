@@ -41,7 +41,7 @@ This contains reusable componenets used in the site such as buttons, tables, pro
 Styles for specific sections of the PC and controls the layout of the PC. Includes masthead, navigation, and sidebar
 
 ###pages
-Different view avliable in the PC. This includes home, email, report and personal/team. All subview code will be in the the parent views file.
+Different views avaliable in the PC. This includes home, email, report and personal/team. All subview code will be in the the parent views file.
 
 ###theme
 This controls the look and feel of PC. Includes variables and typography. For most default PC the variable file should be the only thing that needs updated. This includes branded colors, fonts, font-sizes, and spacing. 
