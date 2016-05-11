@@ -10,19 +10,19 @@ The reset was created using SASS and build tools for compiling purposes (both Gr
 
 Install gulp globally (if you have never done so). If these are already on your machine then no need:
 
-     ```$ npm install -g gulp```
+     $ npm install -g gulp
 
 Navigate to the folder where you placed the copy of the reset in your project directory:
 
-    ```$ cd my-project/default_pc```
+    $ cd my-project/default_pc
 
 Install gulp and the neccesaary dependencies locally:
 
-    ```$ npm install --save-dev gulp gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-rename gulp-scss-lint```
+    $ npm install --save-dev gulp gulp-ruby-sass gulp-autoprefixer gulp-minify-css gulp-rename gulp-scss-lint
 
 To start gulp compiling and watching tasks type:
 
-    ```$ gulp```
+    $ gulp
 
 ##Updating CSS for specific projects
 Just update variables file in sass/theme. Here you can update font stack, font sizes, branded colers and margins. For more customizations than just basic styles you will need to either update the other core files or create a override file and add its reference to the bottom of the custom.scss file
