@@ -64,7 +64,7 @@ CONTACTS
 -------------------------------*/
 /*hide icons in contacts*/
 .ui-button-text-icon-secondary .ui-button-icon-secondary, .ui-button-text-icons .ui-button-icon-secondary, .ui-button-icons-only .ui-button-icon-secondary{display: none}
-#contacts-list-switch-tab div, #contacts-list-switch-tab div.right-tab, #contacts-list-switch-tab div.left-tab{color:#fff;background:$darkGrey;padding:0;width: 100px;text-align: center;border:0 none;border-radius:0;}
+#contacts-list-switch-tab div, #contacts-list-switch-tab div.right-tab, #contacts-list-switch-tab div.left-tab{color:#fff;background:$darkGrey;padding:0;width: auto;text-align: center;border:0 none;border-radius:0;}
 #contacts-list-switch-tab a{color:#fff;display: block}
 #contacts-list-switch-tab div:hover{background:$hoverColor;}
 #contacts-list-switch-tab div.selected, #contacts-list-switch-tab div.selected:hover{background:$primaryColor;
