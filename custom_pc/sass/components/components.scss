@@ -45,7 +45,7 @@ POP UPS
 LOADING BAR
 ---------------------*/
 /*ADD LOGO TO POPULATE IN LOADING BAR*/
-#wait_c .bd {height:125px;/*will need to adjust depending on logo size*/ background:url('https://secure3.convio.net/cdbox/images/content/pagebuilder/cdLogo.jpg') no-repeat center 60px scroll transparent;}
+#wait_c .bd {height:150px;/*will need to adjust depending on logo size*/ background:url('https://secure2.convio.net/vateam/images/content/pagebuilder/ec_AHSlogo.png') no-repeat center 60px scroll transparent;}
 .ui-progressbar .ui-progressbar-value{background-color: $primaryColor !important;border-radius:0 !important;}/*override jQuery ui css*/
 @media(max-width: 567px){
     #wait_c .bd{height:auto;background-image:none;}

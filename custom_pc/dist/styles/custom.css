@@ -569,7 +569,7 @@ CONTACTS
 #contacts-list-switch-tab div, #contacts-list-switch-tab div.right-tab, #contacts-list-switch-tab div.left-tab {
   color: #fff;
   background: #a4a4ae;
-  padding: 0;
+  padding: 0 20px;
   width: auto;
   text-align: center;
   border: 0 none;
@@ -848,9 +848,9 @@ LOADING BAR
 ---------------------*/
 /*ADD LOGO TO POPULATE IN LOADING BAR*/
 #wait_c .bd {
-  height: 125px;
+  height: 150px;
   /*will need to adjust depending on logo size*/
-  background: url("https://secure3.convio.net/cdbox/images/content/pagebuilder/cdLogo.jpg") no-repeat center 60px scroll transparent;
+  background: url("https://secure2.convio.net/vateam/images/content/pagebuilder/ec_AHSlogo.png") no-repeat center 60px scroll transparent;
 }
 
 .ui-progressbar .ui-progressbar-value {

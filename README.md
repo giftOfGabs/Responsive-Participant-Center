@@ -2,11 +2,10 @@ Participant Center Reset
 ==============================
 This package is baseline reset to make Particpant Centers in Luminate TeamRaiser responsive and easy to skin.
 
-
 ##Setup
 To get started, first copy the folder of the reset you want (either the default or custom), and place in your project's directory.
   
-The reset was created using SASS and Gulp for compiling purposes, so you will need to have [Node](https://nodejs.org/en/) and Ruby (Mac users have this automatically, [PC folks go here](https://www.ruby-lang.org/en/documentation/installation/) installed on your machine. Here is some basic documentaiton on setting up [Gulp with SASS](https://travismaynard.com/writing/getting-started-with-gulp) or [Getting Started With Gulp](https://markgoodyear.com/2014/01/getting-started-with-gulp/)
+The reset was created using SASS and Gulp for compiling purposes, so you will need to have [Node](https://nodejs.org/en/) and Ruby (Mac users have this automatically, [PC folks go here](https://www.ruby-lang.org/en/documentation/installation/) installed on your machine.
 
 Install gulp globally (if you have never done so). If these are already on your machine then no need:
 
@@ -47,8 +46,3 @@ Different views avaliable in the PC. This includes home, email, report and perso
 This controls the look and feel of PC. Includes variables and typography. For most default PC the variable file should be the only thing that needs updated. This includes branded colors, fonts, font-sizes, and spacing. 
 
 
-
-##Front End Examples
- Both examples can be accessed using westest as username and password.
- * [Default PC](http://cdbox.convio.net/site/TR?fr_id=2860&pg=entry) - basic skin responsive particpant center
- * [Custom Baseline PC](http://cdbox.convio.net/site/TR?fr_id=2990&pg=entry) - adding custom 1 column layout, custom thermometer
