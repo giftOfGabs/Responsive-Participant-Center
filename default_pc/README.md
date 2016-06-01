@@ -10,4 +10,4 @@ When you save any changes to a sass file while Gulp is running it will compile i
 Update the pcWrapper.html file with the logo of the client and the link to the TeamRaiser. 
 
 ##Custom JavaScript
-No JavaScript needed since this version uses the default layout and functionality of the Particpant Center
+Add the scripts in the custom.js file to the Edit Custom JavaScript section in the Participant Center. Script to add meta viewport tag is the only thing needed to make this work. This is so no updates to the dashboard are needed, thus allowing for PC upgrades.
