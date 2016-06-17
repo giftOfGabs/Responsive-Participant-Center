@@ -42,6 +42,9 @@
 	#contacts-table-info-block #contacts-list .yui-dt-data td{text-align:center;}
 	/*Sent and Drafts Table*/
 	.yui-dt-col-date, .yui-dt-col-delete{width:10%;}
+	#sent-block, #drafts-block {
+		.yui-dt tr th, .yui-dt tr td {max-width:100px;}
+	}
 }
 
 @media(max-width:767px){
